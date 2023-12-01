@@ -1,0 +1,157 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(45deg, rgb(0, 195, 255),rgb(0, 255, 123));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer{
+    width:50%;
+    height:200px;
+    padding:10px 20px;
+    background:rgba(129, 62, 134, 0.2);
+    backdrop-filter:blur(10px);
+    --webkit-backdrop-filter:blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    z-index:99;
+}
+  h1{
+    background:yellow;
+    margin:20px;
+    padding:2%;
+    border-radius:10px;
+    font-size:3vw;
+}
+#time-f{
+   padding:18px;
+    border-radius:10px;
+    font-size:2vw;
+}
+.circle{
+    width:100px;
+    height:100px;
+    background:pink;
+    position: absolute;
+    bottom:25%;
+    left:73%;
+    z-index: 1;
+}
+
+@media screen and (max-width:906px){
+    
+        h1{
+            background:yellow;
+            margin:20px;
+            padding:2%;
+            border-radius:10px;
+            font-size:3.7vw;
+        }
+    
+        .circle{
+            width:100px;
+            height:100px;
+            background:pink;
+            position: absolute;
+            bottom:27%;
+            left:71%;
+            z-index: 1;
+        }
+        #time-f{
+            padding:20px;
+             border-radius:10px;
+             font-size:2.6vw;
+         }
+
+    }
+
+@media screen and (max-width:740px){
+    h1{
+        background:yellow;
+        margin:17px;
+        padding:3%;
+        border-radius:10px;
+        font-size:3.9vw;
+    }
+
+    .circle{
+        width:80px;
+        height:80px;
+        background:pink;
+        position: absolute;
+        bottom:27%;
+        left:71%;
+        z-index: 1;
+    }
+    #time-f{
+        padding:16px;
+         border-radius:10px;
+         font-size:3.2vw;
+     }
+}
+
+@media screen and (max-width:562px){
+    .timer{
+        width:65%;
+        padding:10px 30px;
+    }
+    h1{
+        background:yellow;
+        margin:15px;
+        padding:4%;
+        border-radius:10px;
+        font-size:4.3vw;
+    }
+
+    .circle{
+        width:60px;
+        height:60px;
+        background:pink;
+        position: absolute;
+        bottom:30%;
+        left:80%;
+        z-index: 1;
+    }
+    #time-f{
+        padding:14px;
+         border-radius:10px;
+         font-size:3.5vw;
+     }
+}
+
+@media screen and (max-width:450px){
+    .timer{
+        width:70%;
+        padding:10px 20px;
+    }
+  
+    h1{
+        background:yellow;
+        margin:6%;
+        padding:4%;
+        border-radius:10px;
+        font-size:6vw;
+    }
+
+    .circle{
+        width:50px;
+        height:50px;
+        background:pink;
+        position: absolute;
+        bottom:31%;
+        left:83%;
+        z-index: 1;
+    }
+    #time-f{
+        padding:14px;
+         border-radius:10px;
+         font-size:3.7vw;
+     }
+}
